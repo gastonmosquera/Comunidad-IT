@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+     <title>Log in Twitter</title>
+     <style type="text/css">
+     fieldset {
+         background-color: white;
+         width: 400px;
+         height: 180px;
+         border: 0.2px solid #E1EAEA; 
+     }
+     .usuario {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 3px;
+        border: 1px solid #E1EAEA;
+        width: 296px;
+        height: 25px;
+        margin-left: 10px;
+        text-indent: 5px;
+     }
+     .pass {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 15px;
+         -webkit-text-fill-color: #9D9F9F;
+         border-radius: 3px;
+         border: 1px solid #E1EAEA;
+         width: 200px;
+         height: 25px;
+         margin-left: 10px;
+         text-indent: 5px;
+     }
+     .login {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 17px;
+         color:#59C1F2;
+         border: 1px solid #59C1F2;
+         background-color: white;
+         border-radius: 20px;
+         height: 35px;
+         width: 90px;
+         font-weight: bold;
+         cursor: pointer;
+         margin-left: 5px;
+     }
+     .login:hover {
+        background-color: #59C1F2;
+        color: white;
+     }
+     .check {
+        background-color: #59C1F2;
+        height: 16px;
+        width: 16px;
+        margin-left: 10px;   
+     }
+     .remember {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 14px;
+         color: #9D9F9F;
+     }
+     .puntito {
+         font-size: 14px;
+         color: grey;
+     }
+     .olvido {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 14px;
+         text-decoration-line: none;
+         color: #59C1F2;   
+     }
+     </style>
+ </head>
+    <body>
+       <div>
+        <form action="/action_page.php">
+         <fieldset>
+          <br />
+          <input class="usuario" type="text" name="text" placeholder="Phone, email or username" />
+          <br />
+          <br />
+          <input class="pass" type="password" name="password" placeholder="Password" />
+          <span><input class="login" type="submit" value="Log in"> </span>
+          <br />
+          <br />
+          <input class="check" type="checkbox" value="Remember me" />
+          <span><label class="remember" for="Remember">Remember me</label></span>
+          <span> <label class="puntito" for="&#8226">&#8226</label></span>
+          <span> <a class="olvido" href="https://twitter.com/account/begin_password_reset"> Forgot password?</a></span>
+         </fieldset>
+        </form>
+       </div>
+    </body>
+</html>
+
+

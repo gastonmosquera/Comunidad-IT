@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+     <title>Facebook</title>
+     <style type="text/css">
+     fieldset {
+         background-color: #E8EBEE;
+         width: 450px;
+         height: 600px;
+         border: 1px solid #E1EAEA;
+     }
+     .label1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 15px;
+     }
+     .label2 {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 18px;
+         margin-left: 15px;
+     }
+     .nombre {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 6px;
+        border: 0.5px solid #175B97;
+        width: 180px;
+        height: 30px;
+        margin-left: 15px;
+        text-indent: 10px;
+     }
+     .apellido {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 6px;
+        border: 0.5px solid #175B97;
+        width: 180px;
+        height: 30px;
+        margin-left: 8px;
+        text-indent: 10px;
+     }
+     .mail {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 6px;
+        border: 0.5px solid #175B97;
+        width: 372px;
+        height: 30px;
+        margin-left: 15px;
+        text-indent: 10px;  
+     }
+     .pass {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 6px;
+        border: 0.5px solid #175B97;
+        width: 372px;
+        height: 30px;
+        margin-left: 15px;
+        text-indent: 10px;
+     }
+     .cumple {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 18px;
+         margin-left: 15px;
+     }
+     .fecha {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 6px;
+        border: 0.5px solid #175B97;
+        width: 130px;
+        height: 30px;
+        margin-left: 15px;
+        text-indent: 5px;
+     }
+     .textfecha {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 12px;
+         margin-left: 3px;
+         color: #175B97;
+         text-decoration-line: none;
+         font-weight: bold;
+     }
+     .fem {
+         margin-left: 20px;
+     }
+     .textfem {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: black;
+    
+     }
+     .textmasc {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        color: black;
+     }
+     p {
+        margin-left: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+     }
+     a {
+         text-decoration-line: none;
+         color: #175B97;
+         font-weight: bold;
+     }
+     .crear {
+         margin-left: 15px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 20px;
+         width: 200px;
+         height: 45px;
+         background-color: #21A219;
+         color: white;
+         border-radius: 6px;
+         border: 1px solid #188012;
+         font-weight: bold;
+         cursor: pointer;
+     }
+     .crear:hover {
+         background-color: #188012;
+     }
+     </style>
+ </head>
+    <body>
+       <div>
+        <form action="/action_page.php">
+         <fieldset>
+             <label class="label1"for="Sign Up">Sign Up</label>
+             <br />
+             <label class="label2">It's free and always will be.</label>
+             <br />
+             <br />
+             <input class="nombre"type="text" name="first name" placeholder="First name">
+             <span><input class="apellido"type="text" name="Last name" placeholder="Last name"></span>
+             <br />
+             <br />
+             <input class="mail"type="text" name="mobile or email" placeholder="Mobile number or email">
+             <br />
+             <br />
+             <input class="pass" type="password" name="new pass" placeholder="New password">
+             <br />
+             <br />
+             <label class="cumple">Birthday</label>
+             <br />
+             <input class="fecha"type="date" name="fecha" placeholder="Date"> 
+             <span><a class="textfecha"href="https://www.facebook.com/r.php?next=https%3A%2F%2Fwww.facebook.com%2Fhome.php&locale=es_LA&display=page#">Why do I need to provide my birthday?</a></span>
+             <br />
+             <br />
+             <input class="fem" type="radio" name="sexo"> <label class="textfem">Female</label>
+             <span><input class="masc" type="radio" name="sexo"> <label class="textmasc">Male</label></span>
+             <br />
+             <br />
+             <p>By clickyng Create Account, you agree to our <a href="https://www.facebook.com/legal/terms">Terms</a> and that
+             <br>you have read our <a href="https://www.facebook.com/about/privacy">Data Policy</a>,including our <a href="https://www.facebook.com/policies/cookies/">Cookie Use</a>.You</br>
+             may receive SMS Notifications from Facebook and can opt out
+             <br>at any time.</br></p>
+             <br />
+             <input class="crear" type="submit" name="submit" value="Create Account" />
+         </fieldset>
+        </form>
+       </div>
+    </body>
+</html>

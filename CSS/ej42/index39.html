@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+     <title>Gmail</title>
+     <style type="text/css">
+     fieldset {
+         background-color: white;
+         height: 1100px;
+         width: 500px;
+         margin-left: 550px;
+         border: 1.5px solid #E1E1E1;
+     }
+     label {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 20px;
+         font-weight: bold;
+         margin-left: 30px;
+         color: black; 
+     }
+     .first {
+         font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 200px;
+        height: 35px;
+        margin-left: 30px;
+        text-indent: 10px;
+     }
+     .last {
+         font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 200px;
+        height: 35px;
+        margin-left: 10px;
+        text-indent: 10px; 
+     }
+     .mail {
+         font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 415px;
+        height: 35px;
+        margin-left: 30px;
+        text-indent: 300px; 
+     }
+     .pass {
+         font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 415px;
+        height: 35px;
+        margin-left: 30px;
+        text-indent: 10px;
+     }
+     .repass {
+         font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 415px;
+        height: 35px;
+        margin-left: 30px;
+        text-indent: 10px;
+     }
+     .mes {
+         font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 150px;
+        height: 30px;
+        margin-left: 30px;
+        text-indent: 10px;
+        margin-top: 5px;
+     }
+     .dia {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 100px;
+        height: 35px;
+        margin-left: 25px;
+        text-indent: 10px;
+     }
+     .año {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 100px;
+        height: 35px;
+        margin-left: 25px;
+        text-indent: 10px; 
+     }
+     .genero {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 415px;
+        height: 35px;
+        margin-left: 30px;
+        text-indent: 10px;
+        background-color: white;
+     }
+     .fono {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        -webkit-text-fill-color: black;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 415px;
+        height: 35px;
+        margin-left: 30px;
+        text-indent: 10px;  
+     }
+     .mailadd {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        -webkit-text-fill-color: #9D9F9F;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 415px;
+        height: 35px;
+        margin-left: 30px;
+        text-indent: 10px;  
+     }
+     .pais {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        border-radius: 1px;
+        border: 1.5px solid #E1E1E1;
+        width: 415px;
+        height: 35px;
+        margin-left: 30px;
+        text-indent: 10px; 
+     }
+     .siguiente {
+         font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        border-radius: 4px;
+        border: 1.5px solid #3B96F6;
+        width: 105px;
+        height: 45px;
+        margin-left: 340px;
+        text-align: center;
+        cursor: pointer;
+        background-color: #54A2F5;
+     }
+     .siguiente:hover {
+         background-color: #3894F5;
+         border: 1.5px solid #3894F5;
+     }
+     input:hover {
+         border: 1.5px solid #C4C4C5;
+     }
+
+     </style>
+ </head>
+    <body>
+       <div>
+        <form action="/action_page.php">
+         <fieldset>
+             <label for="Name">Name</label>
+             <br />
+             <input class="first" type="text" name="first" placeholder="First">
+             <span><input class="last" type="text" name="Last" placeholder="Last"></span>
+             <br />
+             <br />
+             <label for="Choose your username">Choose your username</label>
+             <br />
+             <input class="mail" type="email" name="username" placeholder="@gmail.com">
+             <br />
+             <br />
+             <label for="Create password">Create password</label>
+             <br />
+             <input class="pass"type="password" name="pass">
+             <br />
+             <br />
+             <label for="Confirm your password">Confirm your password</label>
+             <br />
+             <input class="repass"type="password" name="pass">
+             <br />
+             <br />
+             <label for="birthday">Birthday</label>
+             <br />
+            <select name="mes" class="mes" size="12">
+                <option value="0">Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+             <span><input class="dia" type="text" name="dia" placeholder="Day"></span>
+             <span><input class="año" type="text" name="año" placeholder="Year"></span>
+             <br />
+             <br />
+             <label for="gender">Gender</label>
+             <br />
+             <select class="genero" name="genero" size="4">
+                 <option selected value="0">I am...</option>
+                 <option value="1">Male</option>
+                 <option value="2">Female</option>
+                 <option value="3">Other</option>
+                 <option value="4">Rather not say</option>
+             </select>
+             <br />
+             <br />
+             <label for="Mobile Phone">Mobile Phone</label>
+             <br />
+             <input class="fono" type="number" placeholder="+54">
+             <br />
+             <br />
+             <label for="Your current email address">Your current email address</label>
+             <br />
+             <input class="mailadd" type="text" name="email address">
+             <br />
+             <br />
+             <label for="location">Location</label>
+             <br />
+             <select class="pais" name="location" size="4">
+                 <option selected value="0"></option>
+                 <option value="1">Argentina</option>
+                 <option value="2">Uruguay</option>
+                 <option value="3">Paraguay</option>
+                 <option value="4">Todos los demas despues los pongo</option>
+             </select>
+             <br />
+             <br />
+             <br />
+             <input class="siguiente" type="submit" name="next step" value="Next step">
+         </fieldset>
+        </form>
+       </div>
+    </body>
+</html>
