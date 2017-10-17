@@ -1,0 +1,10 @@
+var nombre = 'Gaston';
+var apellido = 'Mosquera';
+var edad = 18;
+var FechaDeNacimiento = '24/10/1998';
+var direccion = 'Ballester';
+console.log('Nombre:', nombre);
+console.log('Apellido:', apellido);
+console.log('Edad:', edad);
+console.log('Fecha de nacimiento:', FechaDeNacimiento);
+console.log('Direccion:', direccion);

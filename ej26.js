@@ -1,0 +1,15 @@
+let nroDeAula = 20;
+let piso = 3;
+let cantidadDeAlumnos = 28;
+let cantidadDeCursos = 2;
+let cantidadDeBancos = 14;
+console.log(nroDeAula, 20);
+console.log(piso, 3);
+console.log(cantidadDeAlumnos, 28);
+console.log(cantidadDeCursos, 2);
+console.log(cantidadDeBancos, 14);
+console.log(nroDeAula, typeof nroDeAula);
+console.log(piso, typeof piso);
+console.log(cantidadDeAlumnos, typeof cantidadDeAlumnos);
+console.log(cantidadDeCursos, typeof cantidadDeCursos);
+console.log(cantidadDeBancos, typeof cantidadDeBancos);

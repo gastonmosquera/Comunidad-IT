@@ -1,0 +1,10 @@
+let edad = 18;
+let telefono = 1138892887;
+let calle = 'Ballester';
+let altura = 700;
+let templateEdad = `Tengo ${edad} años`;
+let templateTel = `Mi telefono es ${telefono}`;
+let templateCalle = `Vivo en ${calle} al ${altura}`;
+console.log(templateEdad);
+console.log(templateTel);
+console.log(templateCalle);

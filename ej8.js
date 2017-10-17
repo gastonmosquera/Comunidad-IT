@@ -1,0 +1,10 @@
+const nombre = 'Gaston';
+const apellido = 'Mosquera';
+const edad = 18;
+const FechaDeNacimiento = '24/10/1998';
+const direccion = 'Ballester';
+console.log('Nombre:', nombre);
+console.log('Apellido:', apellido);
+console.log('Edad:', edad);
+console.log('Fecha de nacimiento:', FechaDeNacimiento);
+console.log('Direccion:', direccion);
